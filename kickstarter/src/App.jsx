@@ -1,7 +1,14 @@
 import "./App.css";
+import TopNavbar from "./Components/TopNavbar";
+import Footer from "./Components/Footer";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <TopNavbar />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
