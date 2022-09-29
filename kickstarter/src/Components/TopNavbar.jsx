@@ -1,78 +1,77 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  ButtonGroup,
-  Divider,
-  Flex,
-  Hide,
-  Image,
-  Spacer,
-  Text,
-  useBreakpointValue,
-} from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
+
+const text = {
+  fontWeight: "600",
+  fontSize: "14px",
+};
+
+const pageText = {
+  color: "gray",
+};
 
 function TopNavbar() {
   return (
     <>
-      <Flex h="20" justify="center" p="6">
-        <Image src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&s=0cce952d7b55823ff451a58887a0c578" />
-      </Flex>
-      <Flex px="10" border="1px solid lightgray">
-        <ButtonGroup>
-          <Button
-            bg="transparent"
-            border="transparent"
-            _hover={{ color: "green" }}
-          >
+      <Flex px="10" align="center" py="6" justify="space-between">
+        <Box direction="row" display="flex" gap="8">
+          <Text style={text} _hover={{ color: "green" }}>
             Discover
-          </Button>
-          <Button
-            bg="transparent"
-            border="transparent"
-            _hover={{ color: "green" }}
-          >
+          </Text>
+          <Text style={text} _hover={{ color: "green" }}>
             Start a Project
-          </Button>
-        </ButtonGroup>
-        <Spacer />
-        <ButtonGroup>
-          <Button
-            bg="transparent"
-            border="transparent"
+          </Text>
+        </Box>
+        <Flex h="21" justify="center">
+          <Image src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&s=0cce952d7b55823ff451a58887a0c578" />
+        </Flex>
+        <Box direction="row" display="flex" gap="8">
+          <Box
+            display="flex"
+            alignItems="center"
+            gap="2"
             _hover={{ color: "green" }}
-            gap="8"
           >
-            <Text>Search</Text>
+            <Text style={text}>Search</Text>
             <SearchIcon />
-          </Button>
-          <Button
-            bg="transparent"
-            border="transparent"
-            _hover={{ color: "green" }}
-          >
-            Log in
-          </Button>
-        </ButtonGroup>
+          </Box>
+          <Text style={text} _hover={{ color: "green" }}>
+            Login
+          </Text>
+        </Box>
       </Flex>
       <Flex
         gap={30}
         justify="center"
-        borderBottom="1px solid lightgray"
-        py="20"
+        border="1px solid lightgray"
+        py="5"
         align="center"
       >
-        <Box _hover={{ textDecoration: "underline" }}>Arts</Box>
-        <Box _hover={{ textDecoration: "underline" }}>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Arts
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
           Comics & Illustration
         </Box>
-        <Box _hover={{ textDecoration: "underline" }}>Design & Tech</Box>
-        <Box _hover={{ textDecoration: "underline" }}>Film</Box>
-        <Box _hover={{ textDecoration: "underline" }}>Food & Craft</Box>
-        <Box _hover={{ textDecoration: "underline" }}>Games</Box>
-        <Box _hover={{ textDecoration: "underline" }}>Music</Box>
-        <Box _hover={{ textDecoration: "underline" }}>Publishing</Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Design & Tech
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Film
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Food & Craft
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Games
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Music
+        </Box>
+        <Box _hover={{ textDecoration: "underline" }} style={pageText}>
+          Publishing
+        </Box>
       </Flex>
     </>
   );
