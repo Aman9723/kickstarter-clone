@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <TopNavbar />
-      {/* <Footer /> */}
-      {/* <Newsletter /> */}
       <RandF />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
