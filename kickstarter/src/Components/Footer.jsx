@@ -13,7 +13,7 @@ function Footer() {
       <Flex
         gap={30}
         justify="flex-start"
-        borderBottom="2px solid lightgray"
+        border="2px solid lightgray"
         align="center"
         py="5"
         fontSize="14px"
