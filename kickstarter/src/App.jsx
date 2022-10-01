@@ -5,6 +5,7 @@ import Newsletter from "./Components/Newsletter";
 import RandF from "./Components/RandF";
 import PageHeading from "./Components/PageHeading";
 import Creator from "./Components/Creator";
+import Scrolly from "./Components/Scrolly";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <RandF />
       <Newsletter />
       <Creator />
+      <Scrolly />
       <Footer />
     </>
   );

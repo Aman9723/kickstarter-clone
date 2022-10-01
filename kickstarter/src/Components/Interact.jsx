@@ -7,13 +7,13 @@ function Interact() {
   return (
     <>
       <Circle border="1px solid black" p="1">
-        <BsBookmark></BsBookmark>
+        <BsBookmark size={14}></BsBookmark>
       </Circle>
       <Circle border="1px solid black" p="1">
-        <BiLike></BiLike>
+        <BiLike size={14}></BiLike>
       </Circle>
       <Circle border="1px solid black" p="1">
-        <BiDislike></BiDislike>
+        <BiDislike size={14}></BiDislike>
       </Circle>
     </>
   );
