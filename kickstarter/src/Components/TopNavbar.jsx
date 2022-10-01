@@ -1,6 +1,9 @@
 import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
+import LoginPage from "../Pages/LoginPage";
+import HomePage from "../Pages/HomePage";
 
 const text = {
   fontWeight: "600",
@@ -23,9 +26,11 @@ function TopNavbar() {
             Start a Project
           </Text>
         </Box>
+        <Link to="/" element={<HomePage />}>
         <Flex h="21" justify="center">
           <Image src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&s=0cce952d7b55823ff451a58887a0c578" />
-        </Flex>
+          </Flex>
+          </Link>
         <Box direction="row" display="flex" gap="8">
           <Box
             display="flex"
@@ -37,7 +42,9 @@ function TopNavbar() {
             <SearchIcon />
           </Box>
           <Text style={text} _hover={{ color: "green" }}>
-            Login
+            <Link to="/login" element={<LoginPage />}>
+              Login
+            </Link>
           </Text>
         </Box>
       </Flex>

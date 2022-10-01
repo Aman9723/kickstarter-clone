@@ -37,7 +37,7 @@ function Footer() {
             listStyle: "none",
           }}
         >
-          <h3 style={{ fontWeight: "500" }}>ABOUT</h3>
+          <h3 style={{ fontWeight: "600" }}>ABOUT</h3>
           <br />
           <li>About us</li>
           <li>Our charter</li>
@@ -50,7 +50,7 @@ function Footer() {
             listStyle: "none",
           }}
         >
-          <h3 style={{ fontWeight: "500" }}>SUPPORT</h3>
+          <h3 style={{ fontWeight: "600" }}>SUPPORT</h3>
           <br />
           <li>Help Center</li>
           <li>Our Rules</li>
@@ -63,7 +63,7 @@ function Footer() {
             listStyle: "none",
           }}
         >
-          <h3 style={{ fontWeight: "500" }}>MORE FROM KICKSTARTER</h3>
+          <h3 style={{ fontWeight: "600" }}>MORE FROM KICKSTARTER</h3>
           <br />
           <li>Newsletters</li>
           <li>Kickstarter Magazine</li>
@@ -74,7 +74,7 @@ function Footer() {
         </ul>
       </Flex>
       <Flex m="10" justify="space-between">
-        <Box display="flex" alignItems="center" gap="3" px="3">
+        <Box display="flex" alignItems="center" gap="3" px="1">
           <Image
             src="https://cdn-icons-png.flaticon.com/512/152/152805.png"
             h="4"

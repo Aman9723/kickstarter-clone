@@ -47,42 +47,41 @@ let data = [
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/703/540/f504008a58a49ac0e4acbe555ff99e1e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1664170992&auto=format&frame=1&q=92&s=eadda36a3c451425c504035ff0a49721",
+      "https://ksr-ugc.imgix.net/assets/038/288/485/1125403a393c299b41f2260f6477cd31_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1660616494&auto=format&frame=1&q=92&s=ca819b05284ec72b06f3387f78495aa4",
     title: "SuperBase V: First Plug-and-Play Home...",
     funded: "11,392% funded",
     author: "By Zendure",
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/574/931/7db574cb066835762f670ffa86735467_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663072830&auto=format&frame=1&q=92&s=5dbb7458f6ca9f1358d4add92d202d75",
+      "https://ksr-ugc.imgix.net/assets/038/713/947/fd1f103dd274bc22b6c4ddf59248bc19_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1664242372&auto=format&frame=1&q=92&s=e0d32cfdc17b962dec084f6738889ee5",
     title: "Stormlight Premium Miniatures",
     funded: "5,162% funded",
     author: "By Brotherwise Games",
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/649/191/9e5d744ad3be37bc87e5985d7d394bbd_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663690413&auto=format&frame=1&q=92&s=8c364efacf340ab7b828195f38111dd9",
+      "https://ksr-ugc.imgix.net/assets/038/720/472/2b418ad8416bf1b3643bc8724ae7d322_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1664288924&auto=format&frame=1&q=92&s=2762d99e86bf4d7575e7e29802f14434",
     title: "Dark Tomb",
     funded: "545% funded",
     author: "By Kozz",
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/703/540/f504008a58a49ac0e4acbe555ff99e1e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1664170992&auto=format&frame=1&q=92&s=eadda36a3c451425c504035ff0a49721",
+      "https://ksr-ugc.imgix.net/assets/038/664/211/32316b8331f92feee9356ccfebcacca5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663792437&auto=format&frame=1&q=92&s=288001a08c69e7e5960dc78da4717d7c",
     title: "SuperBase V: First Plug-and-Play Home...",
     funded: "11,392% funded",
     author: "By Zendure",
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/574/931/7db574cb066835762f670ffa86735467_original.png?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663072830&auto=format&frame=1&q=92&s=5dbb7458f6ca9f1358d4add92d202d75",
-    title: "Stormlight Premium Miniatures",
+      "https://ksr-ugc.imgix.net/assets/038/633/732/c032a99c8213f732f6574b16735219a6_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663582336&auto=format&frame=1&q=92&s=8b1790458a77708ef40659e67e1e629c",
     funded: "5,162% funded",
     author: "By Brotherwise Games",
   },
   {
     image:
-      "https://ksr-ugc.imgix.net/assets/038/649/191/9e5d744ad3be37bc87e5985d7d394bbd_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663690413&auto=format&frame=1&q=92&s=8c364efacf340ab7b828195f38111dd9",
+      "https://ksr-ugc.imgix.net/assets/038/714/680/b3a629778404caf544844d8c502905c3_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1664245640&auto=format&frame=1&q=92&s=031949314c153b59684d98f791a90d71",
     title: "Dark Tomb",
     funded: "545% funded",
     author: "By Kozz",
