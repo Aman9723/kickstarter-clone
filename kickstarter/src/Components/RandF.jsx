@@ -76,6 +76,7 @@ let data = [
   {
     image:
       "https://ksr-ugc.imgix.net/assets/038/633/732/c032a99c8213f732f6574b16735219a6_original.jpg?ixlib=rb-4.0.2&crop=faces&w=560&h=315&fit=crop&v=1663582336&auto=format&frame=1&q=92&s=8b1790458a77708ef40659e67e1e629c",
+    title: "Stormlight Premium Miniatures",
     funded: "5,162% funded",
     author: "By Brotherwise Games",
   },

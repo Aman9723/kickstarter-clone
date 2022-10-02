@@ -90,14 +90,14 @@ function Footer() {
           </Box>
           <Box display="flex" alignItems="center" gap="3">
             <Select placeholder="English" w={150} h={12}>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+              <option value="option1">Deutsh</option>
+              <option value="option2">Italiano</option>
+              <option value="option3">Espanol</option>
             </Select>
             <Select placeholder="$ US Dollar (USD)" w={250} h={12}>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+              <option value="option1">Euro (EUR)</option>
+              <option value="option2">Australian Dolloar (AUD)</option>
+              <option value="option3">Canadian Dolloar (CAD)</option>
             </Select>
           </Box>
         </Box>
