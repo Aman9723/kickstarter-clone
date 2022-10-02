@@ -4,7 +4,9 @@ import React from "react";
 function PageHeading() {
   return (
     <Flex direction="column" gap={4} px="10" my="10">
-      <Heading fontWeight="light">Arts</Heading>
+      <Heading fontWeight="400" fontSize="28px">
+        Arts
+      </Heading>
       <Text color="gray">
         Discover the artists and organizations using Kickstarter to realize
         ambitious projects in visual art and performance.

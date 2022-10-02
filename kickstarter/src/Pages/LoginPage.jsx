@@ -7,12 +7,43 @@ import {
   HStack,
   Input,
   Text,
+  useToast,
 } from "@chakra-ui/react";
 import { AiOutlineApple, AiOutlineFacebook } from "react-icons/ai";
 import SignupPage from "./SignupPage";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AppContext } from "../Contexts/AppContext";
 
 function LoginPage() {
+  const toast = useToast();
+  const email = React.useRef();
+  const password = React.useRef();
+  const { checkUser } = React.useContext(AppContext);
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (checkUser(email.current.value, password.current.value)) {
+      toast({
+        title: "Log in successful.",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+      setTimeout(() => {
+        navigate("/");
+      }, 1000);
+    } else {
+      toast({
+        title: "Log in failed.",
+        description: 'Incorrect email or password',
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
+  };
+
   return (
     <div
       style={{
@@ -32,12 +63,13 @@ function LoginPage() {
           flexDirection: "column",
           gap: "12px",
         }}
+        onSubmit={handleSubmit}
       >
         <Heading fontWeight="400" fontSize="30px">
           Log in
         </Heading>
-        <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" />
+        <Input type="email" placeholder="Email" ref={email} />
+        <Input type="password" placeholder="Password" ref={password} />
         <p
           style={{
             color: "#2752ff",
@@ -47,13 +79,15 @@ function LoginPage() {
         >
           Forgot your password?
         </p>
-        <Button color={"white"} bg="#028858" w="full">
+        <Button color={"white"} bg="#028858" w="full" type="submit">
           Login
         </Button>
-        <Checkbox>Remember me</Checkbox>
+        <Checkbox>
+          <Text fontSize="14px">Remember me</Text>
+        </Checkbox>
         <HStack>
           <Divider></Divider>
-          <p>or</p>
+          <p style={{ fontSize: "14px" }}>or</p>
           <Divider></Divider>
         </HStack>
         <Button color={"white"} bg="black" w="full">
@@ -79,8 +113,8 @@ function LoginPage() {
         </p>
         <Divider></Divider>
         <Link to="/signup" element={<SignupPage />}>
-          <HStack py={3} justify="center">
-            <Text>New to Kickstarter?</Text>
+          <HStack py={2} justify="center">
+            <Text fontSize="14px">New to Kickstarter?</Text>
             <p
               style={{
                 color: "#39579A",
