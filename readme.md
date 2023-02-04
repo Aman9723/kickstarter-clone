@@ -14,7 +14,7 @@
 
 To use this repo run:
 ```
-git clone https://github.com/Aman9723/brawny-plough-6910.git
+git clone https://github.com/Aman9723/kickstarter-clone.git
 cd .\brawny-plough-6910\
 npm i
 npm start
